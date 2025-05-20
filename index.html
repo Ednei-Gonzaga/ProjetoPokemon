@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon</title>
+    <link rel="stylesheet" href="css/index/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagem/logoPokemon.png" alt="">
+        <nav>
+            <button href="" id="btnDirecionaCreate">Criar conta</button>
+            <button href="" id="btnDirecionaLogin">Login</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="containerLogin">
+            <h1>Bem-vindo Treinador!</h1>
+
+            <div>
+                <p>Nome</p>
+                <input type="text" placeholder="Digite nome/email" id="nome">
+
+
+            </div>
+
+            <div>
+                <p>Senha</p>
+                <input type="password" placeholder="Digite sua senha" id="senha">           
+                <p id="mensagemErrorLogin">Mensagem erro</p>
+            </div>
+
+            <button id="btnFazerLogin">LOGIN</button>
+        </div>
+
+
+        <div class="containerCreateAccount">
+            <h1>Criar Nova Conta</h1>
+
+            <div>
+                <p>Nome</p>
+                <input type="text" placeholder="Digite seu nome" id="inputCriarNome">
+            </div>
+
+            <div>
+                <p>Email</p>
+                <input type="email" placeholder="Digite seu email" id="inputCriarEmail">
+            </div>
+
+            <div>
+                <p>Senha</p>
+                <input type="password" placeholder="Digite sua senha" id="inputCriarSenha">
+                <p id="mensagemErrorCriar"></p>
+            </div>
+
+            <button id="btnCriarConta">CRIAR</button>
+
+        </div>
+
+    </main>
+
+    <script src="js/index/main.js" type="module"></script>
+</body>
+
+</html>

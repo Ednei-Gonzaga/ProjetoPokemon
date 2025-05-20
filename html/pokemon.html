@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/pokemon/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../imagem/logoPokemon.png" alt="" >
+            <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">POKEMON LIST</h1>
+        </div>
+        <nav>
+            <input type="text" placeholder="Buscar Pokemon" id="pesquisaPokemon">
+            <button href="" id="btnPesquisa"><i class='bx bx-search'
+                    style="font-size: 25px; font-weight: bolder; color: rgb(83, 6, 6);"></i></button>
+        </nav>
+    </header>
+
+    <main id="mainApareceInformacao"> 
+        <div id="divInformacao">
+            <img src="" alt="" id="imageminformacao" width="140px">
+            <h1 id="nomePokemon"></h1>
+            <p id="idPokemon"></p>
+            <div>
+                <b>Habilidades:</b>
+                <p id="habilidadePokemon"></p>
+            </div>
+
+            <div>
+                <b>Altura:</b>
+                <p id="alturaPokemon" class="amarelo"></p>
+            </div>
+
+            <div>
+                <b>Peso:</b>
+                <p id="pesoPokemon" class="vermelho"></p>
+            </div>
+
+            <div>
+                <b>Tipos:</b>
+                <p id="tipoPokemon"></p>
+            </div>
+
+            <div>
+                <b>Experiencia:</b>
+                <p id="experienciaPokemon" class="rosa"></p>
+            </div>
+        </div>
+    </main>
+
+
+    <main id="mainAparecepokemon">
+
+    </main>
+
+    <footer id="footerProximoAnterior">
+        <button id="btnVoltarList">ANTERIOR</button>
+        <h3><small>1</small>/217</h3>
+        <button id="btnProximaList">PROXIMO</button>
+    </footer>
+
+    <footer id="footerFecharInfo">
+        <button id="btnFecharInformacaoPokemon">Voltar</button>
+    </footer>
+
+    <script type="module" src="/js/pokemon/main.js"></script>
+    <script type="module" src="/js/pokemon/apiPokemon.js"></script>
+</body>
+
+</html>
