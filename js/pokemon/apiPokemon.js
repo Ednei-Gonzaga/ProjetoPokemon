@@ -10,7 +10,7 @@ async function getGeralApi(inicio, limite) {
 
 }
 
-//funcao para setar informaçoes dentro do card Dos detalhes dos pokemons
+//funcao para setar informaçoes dentro do card Dos detalhes dos pokemon
 
 async function mostrar(pokemon) {
     const nomePokemon = document.querySelector("#nomePokemon");

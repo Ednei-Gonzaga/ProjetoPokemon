@@ -16,7 +16,7 @@ btnDirecionaLogin.addEventListener("click", () => {
     btnDirecionaLogin.style.display = "none";
 })
 
-//Button que abre teta de CRIAR CONTA
+//Button que abre teta de CRIAR CONTAs
 btnDirecionaCriarConta.addEventListener("click", () => {
     containerLogin.style.display = "flex";
     containerCriar.style.display = "none";

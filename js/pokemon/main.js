@@ -23,7 +23,7 @@ async function carregarPokemons(ondeComecaPokemon, limite) {
 carregarPokemons(inicio, 6)
 
 
-//Button que chamará os proximos 6 pokemons
+//Button que chamará os proximos 6 pokemon
 
 const btnProximaList = document.querySelector("#btnProximaList");
 const paginas = document.querySelector("small");

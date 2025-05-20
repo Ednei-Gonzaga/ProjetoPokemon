@@ -23,7 +23,7 @@ async function postApi(nome, email, senha) {
 }
 
 
-//função para procurar usuario
+//função para procurar usuarios
 async function getApi(usuario, senha) {
     
     const response = await fetch(url);
