@@ -8,7 +8,7 @@ body {
   justify-items: center;
   align-content: center;
   height: 100vh;
-  background-size: cover;
+  background-position: center;
 }
 
 header {
